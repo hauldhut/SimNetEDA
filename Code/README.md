@@ -5,7 +5,7 @@
 - **For R-based Code**: To run RWDisEnh+
   - *Install R packages: RandomWalkRestartMH, igraph, ROCR, Metrics, hash*
 
-## Simulations
+## Experiments
 - **Generate Embeddings**
   - *generate_embeddings_for_DiNet.py*: Generate embeddings for diseases from disease similarity.
   - *embed_Enh_models_DNABERT_PCA.py*: Generate embeddings for enhancers from their sequences. Those embeddings were used as initial features
