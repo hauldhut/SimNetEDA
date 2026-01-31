@@ -1,10 +1,10 @@
 # SimNetEDA
 
-• Proposes SimNetEDA, a similarity network–based framework for disease–enhancer prediction
-• Learns enhancer and disease representations using graph attention networks
-• Avoids information leakage by decoupling representation learning from known associations
-• Achieves state-of-the-art performance and robustness across multiple ablation studies
-• Provides biological evidence via GWAS support and pathway enrichment analysis
+- Proposes SimNetEDA, a similarity network–based framework for disease–enhancer prediction
+- Learns enhancer and disease representations using graph attention networks
+- Avoids information leakage by decoupling representation learning from known associations
+- Achieves state-of-the-art performance and robustness across multiple ablation studies
+- Provides biological evidence via GWAS support and pathway enrichment analysis
 
 ![SimNetEDA](https://github.com/hauldhut/SimNetEDA/blob/main/Figure1_SimNetEDA_v4.png)
 
