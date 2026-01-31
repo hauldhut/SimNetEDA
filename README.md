@@ -6,7 +6,7 @@
 - Achieves state-of-the-art performance and robustness across multiple ablation studies
 - Provides biological evidence via GWAS support and pathway enrichment analysis
 
-![SimNetEDA](https://github.com/hauldhut/SimNetEDA/blob/main/Figure1_SimNetEDA_v4.png)
+![SimNetEDA](https://github.com/hauldhut/SimNetEDA/blob/main/Figure1.png)
 
 ## Repo structure
 - **Data**: Contains all data 
