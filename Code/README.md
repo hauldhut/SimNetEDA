@@ -1,31 +1,26 @@
 ## Environment Setup
 - **For Python-based Code**
-  - *conda env create -f SimNetRLMDA.yml*: To run SimNetRLMDA
-  - *conda env create -f MAMFGAT.yml*: To run MAMFGAT
-  - *conda env create -f MHXGMDA.yml*: To run MHXGMDA
-- **For R-based Code**: To run MHMDA, and visualize disease-miRNA associations
-  - *Install R packages: RandomWalkRestartMH, igraph, foreach, doParallel, ROCR, ggplot2, Metrics, hash*
+  - *conda env create -f SimNetEDA.yml*: To run SimNetEDA
+
+- **For R-based Code**: To run RWDisEnh+
+  - *Install R packages: RandomWalkRestartMH, igraph, ROCR, Metrics, hash*
 
 ## Simulations
 - **Generate Embeddings**
   - *generate_embeddings_for_DiNet.py*: Generate embeddings for diseases from disease similarity.
-  - *generate_embeddings_for_miRNet.py*: Generate embeddings for miRNAs from the miRNA similarity network.
+  - *generate_embeddings_for_EnhNet.py*: Generate embeddings for enhancers from the enhancer networks.
  
 - **Evaluate**:
-  - *evaluate.py*: For various combinations of disease and miRNA similarity networks, embedding sizes, and epochs
+  - *evaluate.py*: For various combinations of disease and enhancer embeddings, embedding sizes, and epochs
 
 - **Predict**:
-  - *predict.py*: For prediction of novel disease-miRNA associations
+  - *predict.py*: For prediction of novel disease-enhancer associations
 
 ## Summary
-  - *summarize.py*: To summarize and create heatmaps for various combinations of disease and miRNA similarity networks, embedding sizes, and epochs
-  - *create_Figures.py*: To create Figure 2 and 3
-  - *visualize_Disease-miRNA_by_SharedGenes_final.R*: To visualize disease-miRNA associations via shared genes
+  - *summarize.py*: To summarize and create heatmaps for various combinations of disease and enhancer embeddings, embedding sizes, and epochs
 
 ## Comparison
-  - *MHMDA_KFold_Balanced_Final.R*: To compare with MHMDA (https://github.com/hauldhut/MHMDA)
-  - *MAMFGAT.zip*: All data and code used to compare with MAMFGAT
-  - *MHXGMDA.zip*: All data and code used to compare with MHXGMDA
+  - *RWDisEnhPlus_KFold_Final_Balanced.R*: To compare with RWDisEnhPlus  (https://github.com/hauldhut/RWDisEnhPlus)
   
 
 
