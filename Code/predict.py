@@ -271,7 +271,7 @@ def train_and_predict(diseases, Enhs, disease_emb, Enh_emb, positive_pairs,
 def main():
     cls_method = "XGB"
 
-    Enh_net = "EnhNetG_EnhEmbS_initVec_DNABERT-2-meam"
+    Enh_net = "EnhNetG_EnhEmbS_initVec_DNABERT-2-mean"
     # Enh_net = "EnhNetG"
     emb_method = "gat"
     emb_size = 128
