@@ -17,6 +17,12 @@
 - **Predict**:
   - *predict.py*: For prediction of novel disease-enhancer associations
 
+- **Find GWAS Evidence**:
+  - *find_Evidence_for_topK_fromGWASDatabases.R*: Find GWAS evidence for topK ranked enhancers
+
+- **Enrich with KEGG Pathways**:
+  - *enrich_Pathways_ForUnEvidenced_ForEachEnhancer_Final.R*: Perform pathway enrichment for unevidenced enhancers
+
 ## Summary
   - *summarize.py*: To summarize and create heatmaps for various combinations of disease and enhancer embeddings, embedding sizes, and epochs
 
